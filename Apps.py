@@ -92,9 +92,10 @@ def main():
     if st.button('ทำนายผล'):
         result = prediction(HighBP,HighBS,BMI,GenHlth,Age)
         if (result == 1):
-            st.warning('คำเตือน! คุณมีโอกาสเสี่ยงสูงที่จะเป็นโรคเบาหวาน')
+            st.warning('คำเตือน! คุณมีโอกาสเสี่ยงที่จะเป็นโรคเบาหวาน')
+            st.warning('โปรดดูแลสุขภาพของคุณให้ดี หรือเข้าพบแพทย์เพื่อตรวจโรคเบาหวานอย่างละเอียด')
         elif (result == 0):
-            st.success('คุณมีสุขภาพดีและมีโอกาสเสี่ยงน้อยที่จะเป็นโรคเบาหวาน')
+            st.success('ขอแสดงความยินดี คุณมีสุขภาพที่ดี และไม่มีความเสี่ยงเป็นโรคเบาหวาน')
 
 def prediction(HighBP, HighBS,BMI, GenHlth, Age):
     predicted_output = model_dt.predict([[HighBP, HighBS,BMI, GenHlth, Age]])
