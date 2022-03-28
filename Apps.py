@@ -10,22 +10,24 @@ def main():
 
     html_temp = """ 
         <div style ="background-color:pink;padding:11px"> 
-        <h1 style ="color:black;text-align:center;">Prediction Diabetes</h1> 
+        <h1 style ="color:black;text-align:center;text-shadow: 2px 2px 5px #FF3399;">Prediction Diabetes</h1> 
         </div><br/>
-         <h5 style ="text-align:center;">เว็บแอปพลิเคชันทำนายความเสี่ยงเป็นโรคเบาหวาน</h5>
+         <h5 style ="font-family:Arial;text-align:center;text-shadow: 2px 2px 5px #DCDCDC;">เว็บแอปพลิเคชันทำนายความเสี่ยงเป็นโรคเบาหวาน</h5>
          กรุณากรอกข้อมูลด้านล่างนี้ ให้ครบถ้วน
         """
 
     html_sidebar = """
         <div style ="background-color:pink;padding:10px"> 
-        <h1 style ="color:black;text-align:center;">สาระสุขภาพ</h1>
-                <p style ="color:black;">เนื้อหาข้อมูลด้านล่างนี้  มาจากเว็บไซต์ของ โรงพยาบาลศิริราช ปิยมหาราชการุณย์ ที่ให้ความรู้และให้คำปรึกษาด้านสุขภาพต่างๆ ที่เป็นประโยชน์ที่ดีต่อท่าน</p>
+        <style>a:link,a:visited {background-color:#ffd3db;color:black;padding:10px;text-align:center;text-decoration:none;display:inline-block;width: 100%;text-shadow: 2px 2px 5px #FF99CC;}
+        a:hover,a:active {background-color: #f9a2b1;}</style>
+                <h1 style ="color:black;text-align:center;text-shadow: 2px 2px 5px #FF3399;">สาระสุขภาพ</h1>
+                <p style ="color:black;text-shadow: 2px 2px 5px #DCDCDC;">เนื้อหาข้อมูลด้านล่างนี้  มาจากเว็บไซต์ของ โรงพยาบาลศิริราช ปิยมหาราชการุณย์ ที่ให้ความรู้และให้คำปรึกษาด้านสุขภาพต่างๆ ที่เป็นประโยชน์ที่ดีต่อท่าน</p>
                 <p><a href="https://www.siphhospital.com/th/news/article/share/diabetes-2" target="_blank">เบาหวาน รู้ทันป้องกันได้</a></p>
-                <p><a href="https://www.siphhospital.com/th/news/article/share/diabetic-diet" target="_blank">เบาหวาน ควรทานอย่างไร</a></p>
-                <p><a href="https://www.siphhospital.com/th/news/article/share/diabetes-exercise" target="_blank">ออกกำลังกายพิชิตเบาหวาน</a></p>
-                <p><a href="https://www.siphhospital.com/th/news/article/share/diabetes-mellitus" target="_blank">ภาวะแทรกซ้อนจากโรคเบาหวาน</a></p>
-                <p><a href="https://www.siphhospital.com/th/news/article/share/diabetic-retinopathy" target="_blank">เบาหวานขึ้นจอตา อันตรายแค่ไหน</a></p>
-                <p><a href="https://www.siphhospital.com/th/news/article/share/diabetes-guides" target="_blank">เมื่อเจ็บป่วยควรทำอย่างไร</a></p> 
+                <p><a href="https://www.siphhospital.com/th/news/article/share/diabetes-exercise" target="_blank">ออกกำลังกาย พิชิตเบาหวาน</a></p>
+                <p><a href="https://www.siphhospital.com/th/news/article/share/food-exchange" target="_blank">อาหารสำหรับผู้เป็นเบาหวาน</a></p>
+                <p><a href="https://www.siphhospital.com/th/news/article/share/diabetes-mellitus" target="_blank">ภาวะแทรกซ้อน จากโรคเบาหวาน</a></p>
+                <p><a href="" target="_blank">แบบสอบถามความพึงพอใจ</a></p> 
+
     </div> 
     """
 
