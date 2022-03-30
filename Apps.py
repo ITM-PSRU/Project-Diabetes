@@ -26,7 +26,7 @@ def main():
                 <p><a href="https://www.siphhospital.com/th/news/article/share/diabetes-exercise" target="_blank">ออกกำลังกาย พิชิตเบาหวาน</a></p>
                 <p><a href="https://www.siphhospital.com/th/news/article/share/food-exchange" target="_blank">อาหารสำหรับผู้เป็นเบาหวาน</a></p>
                 <p><a href="https://www.siphhospital.com/th/news/article/share/diabetes-mellitus" target="_blank">ภาวะแทรกซ้อน จากโรคเบาหวาน</a></p>
-                <p><a href="" target="_blank">แบบสอบถามความพึงพอใจ</a></p> 
+                <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdk-omWBR4RT-wPGcwdQSmUm9Ko7qG4asLjOw01Wjyf6vOGmg/viewform?usp=sf_link" target="_blank">แบบสอบถามความพึงพอใจ</a></p> 
 
     </div> 
     """
